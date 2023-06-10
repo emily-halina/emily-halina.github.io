@@ -1,13 +1,14 @@
 body {
-    background: linear-gradient(0deg, rgba(255, 140, 0, 0.57) 0%, rgba(225, 0, 255, 0.43) 100%);
+    background-color: rgba(255, 198, 198, 0.67);
   }
   h1 {
     color: rgb(103, 103, 183);
   }
   p {
+    background-color: rgb(255, 0, 0);
     color: rgb(216, 213, 213);
     border: 10px solid #000000;
-    overflow: auto;
-    resize: both;
+    box-sizing: content-box;
+    width: 44%;
     opacity: 0.5;
   }
